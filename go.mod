@@ -2,6 +2,7 @@ module github.com/mlvhub/dummy-service-a
 
 go 1.18
 
-require github.com/mlvhub/dummy-contrib/contrib/printer v0.0.0-20230428095956-c86954b2b6ba
-
-require github.com/mlvhub/dummy-core v0.4.0 // indirect
+require (
+	github.com/mlvhub/dummy-contrib/contrib/printer v0.0.4 // indirect
+	github.com/mlvhub/dummy-core v0.4.0 // indirect
+)
